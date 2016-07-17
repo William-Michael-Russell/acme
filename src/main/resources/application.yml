@@ -1,0 +1,28 @@
+# suppress inspection "UnusedProperty" for whole file
+logging:
+    level:
+        org:
+            springframework: WARN
+            hibernate: WARN
+        eu:
+          kielczewski: DEBUG
+
+spring:
+    freemarker:
+        template-loader-path: /WEB-INF/ftl
+        expose-request-attributes: true
+        expose-spring-macro-helpers: true
+        settings:
+             auto_include: layout/application.ftl
+#    datasource:
+#        url: jdbc:postgresql://localhost:5432/brewery
+#        username: williamrussell
+#        password: abc123
+#        platform: postgres
+#    jpa:
+#        database: POSTGRESQL
+#        hibernate:
+#            ddl-auto: update
+#        show-sql: true
+#    database:
+#        driverClassName: org.postgresql.Driver
