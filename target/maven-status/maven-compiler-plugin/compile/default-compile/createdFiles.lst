@@ -1,0 +1,6 @@
+net/testaholic/acme/Application.class
+net/testaholic/acme/util/EmailValidator.class
+net/testaholic/acme/domain/Feedback.class
+net/testaholic/acme/config/WebConfig.class
+net/testaholic/acme/config/SecurityConfig.class
+net/testaholic/acme/controller/HomeController.class
